@@ -1,0 +1,40 @@
+h3{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+p{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.Tarjetainfo{
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 5%;
+  text-align: center;
+  border: 2px solid rgb(59, 57, 57);
+  box-shadow: 5px 5px 5px 0 rgb(1, 64, 85);
+}
+.Tarjetainfo img {
+  border-radius: 5%;
+  width: 300px;
+  height: 300px;
+  box-shadow: 5px 5px 5px 0 rgb(1, 64, 85);
+}
+.modern-button {
+    background-color: #3498db; 
+    color: white; 
+    font-size: 16px; 
+    font-weight: bold; 
+    padding: 12px 30px; 
+    border: none; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    text-transform: uppercase; 
+    transition: all 0.3s ease; 
+  }
+  .modern-button:hover {
+    background-color: #2980b9; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-3px); 
+  }

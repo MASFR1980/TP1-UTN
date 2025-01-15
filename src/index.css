@@ -1,0 +1,35 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+header{
+  background-color: black;
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
+  height: 50px;
+}
+footer{
+  background-color: black;
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
+  height: 50px;
+}
+h1, .foot{
+  padding-top: 10px;
+  color: white;
+}
+
+.section-card{
+  padding-left: 60px;  
+  padding-right: 60px;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/749/344/non_2x/automation-technology-and-smart-industry-concept-on-blurred-abstract-background-gears-and-icons-photo.jpg");
+  min-height: 88vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
